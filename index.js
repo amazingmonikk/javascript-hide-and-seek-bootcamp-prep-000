@@ -30,6 +30,12 @@ function deepestChild() {
  
  let current = array
   let next = []
+  
+   while (current) {
+    if (criteriaFn(current)) {
+      return current
+    }
+ 
  
   while (list.children) {
   overwrite current node with the first child;
