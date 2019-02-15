@@ -25,8 +25,8 @@ function increaseRankBy(n) {
 
 
 
-function deepestChild() {
-  var list = document.querySelectorAll('#grand-node div')
+function deepestChild(array,criteria) {
+  //var list = document.querySelectorAll('#grand-node div')
  
  let current = array
   let next = []
