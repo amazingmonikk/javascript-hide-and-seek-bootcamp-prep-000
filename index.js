@@ -50,11 +50,3 @@ function deepestChild() {
 }
  
  
-  while (list.children) {
-  overwrite current node with the first child;
-}
-  return the current after the loop
- 
- 
- 
-}
