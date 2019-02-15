@@ -32,7 +32,8 @@ function deepestChild() {
   let child = current.children[0]
   
    while (child) {
-     
+      current = child
+      child = current.children[0]
    }
       
     
