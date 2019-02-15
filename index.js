@@ -32,7 +32,7 @@ function deepestChild(array,criteria) {
   let next = []
   
    while (current) {
-    if (criteriaFn(current)) {
+    if (criteria(current)) {
       return current
     }
     
@@ -45,7 +45,7 @@ function deepestChild(array,criteria) {
     current = next.shift()
   }
  
-  // if we haven't
+ 
   return null
 }
  
