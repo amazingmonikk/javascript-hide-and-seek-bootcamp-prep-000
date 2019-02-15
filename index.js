@@ -28,13 +28,14 @@ function increaseRankBy(n) {
 function deepestChild() {
   //var list = document.querySelectorAll('#grand-node div')
  
- let current = document.querySelectorAll("#grand-node")
-  let next = []
+ let current = document.querySelector("#grand-node")
+  let child = current.children[0]
   
-   while (current) {
-    if (criteria(current)) {
-      return current
-    }
+   while (child) {
+     
+   }
+      
+    
     
      if (Array.isArray(current)) {
       for (let i = 0; i < current.length; i++) {
