@@ -41,6 +41,13 @@ function deepestChild() {
         next.push(current[i])
       }
     }
+    
+    current = next.shift()
+  }
+ 
+  // if we haven't
+  return null
+}
  
  
   while (list.children) {
