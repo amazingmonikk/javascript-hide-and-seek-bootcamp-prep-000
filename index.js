@@ -25,10 +25,10 @@ function increaseRankBy(n) {
 
 
 
-function deepestChild(array,criteria) {
+function deepestChild() {
   //var list = document.querySelectorAll('#grand-node div')
  
- let current = array
+ let current = 
   let next = []
   
    while (current) {
